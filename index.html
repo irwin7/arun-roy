@@ -5,11 +5,300 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://col-css.netlify.app/css/column.css">
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  
+  <!-- 9-50 -->
+  <section id="hero">
+    <div class="container">
+      <header class="site-header row">
+        <div class="logo">
+          <a class="logo-link" href="index.html"></a>
+        </div>
+        
+        <div class="nav-and-btns">
+          <nav class="site-nav">
+            <ul class="nav-list row ">
+              <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Elements</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Membership</a></li>
+              <li class="nav-item"><a class="nav-link nav-down" href="#">More</a></li>
+              <li class="nav-item"><a class="sign-in nav-link" href="#">Sign in</a></li>
+              <li class="nav-item"><a class="sign-up" href="#">Sign Up</a></li>
+            </ul>
+          </nav>
+          <div class="login-and-btns">
+            <a class="search-btn" href="#"><i class='bx bx-search'></i></a>
+            <button class="dark-btn"></button>
+          </div>
+        </div>
+      </header>
+
+      <div class="site-hero">
+        <div class="hero-texts">
+          <h2 class="hero-title">Hay, I am Arun</h2>
+          <p class="hero-text">An architect,software developer, YouTuber and <br> keynote speaker. On this site I write about my learning and experience.</p>
+          <form action="https://echo.htmlacademy.ru/" method="POST" class="email-form">
+          <input type="email" id="email" class="email-input" placeholder="Your email address" name="email">
+          <button class="email-btn">Subscribe</button>
+          </form>
+          <div class="social">
+            <p class="social-text">Follow:</p>
+            <ul class="social-list">
+              <li class="social-item"><a class="social-link" href="#"><i class='bx bxl-twitter'></i></a>
+              </li>
+              <li class="social-item"><a class="social-link" href="#"><i class='bx bxl-facebook' ></i></a>
+              </li>
+              <li class="social-item"><a class="social-link" href="#"><i class='bx bxl-instagram' ></i></a>
+              </li>
+              <li class="social-item"><a class="social-link" href="#"><i class='bx bxl-github' ></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="hero-animations">
+          <img class="hero-img" src="https://arun.gbjsolution.com/content/images/size/w400/2021/05/farhan-shaikh-9TYryqt3wLk-unsplash.jpg" alt="arun">
+          <div class="animation-div1">
+            <div class="animation-div2">
+              <span class="animation-span"></span>
+              <span class="animation-span"></span>
+            </div>
+          </div>
+          <div class="animation-div3">
+            <div class="animation-div4">
+              <span class="animation-span"></span>
+              <span class="animation-span"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 1-50 -->
+
+  <main>
+
+    <section id="posts">
+      <div class="container">
+        <div class="site-posts">
+          <h3 class="posts-title">Featured posts</h3>
+          <ul class="posts-list">
+            <li class="posts-item row">
+              <div class="img-box">
+                <img class="post-img" src="https://arun.gbjsolution.com/content/images/size/w400/2021/05/tengyart-pNq5uxt-f7k-unsplash.jpg" alt="">
+              </div>
+              <div class="posts-item-texts">
+                <a href="#"><span class="lifestyle posts-span">Lifestyle</span></a>
+                <h4  class="posts-item-title"><a href="#">Self-observation is the first step of inner unfolding</a></h4>
+                <p class="posts-item-text">Almost instantly the whole truth of the transaction seemed to rush upon her mind, and her wrath was inconceivably violent. She asked me a thousand questions in a</p>
+                <div class="post-meta">
+                  <time class="post-date" datetime="2021-05-02">May 02, 2021</time>
+                  <span class="read-time">3 min read</span>
+                  <span class="visibility">Public</span>
+              </div>
+              </div>
+            </li>
+            <li class="posts-item row">
+              <div class="img-box">
+                <img class="post-img" src="https://arun.gbjsolution.com/content/images/size/w400/2021/05/timur-romanov-VfOx0mL70xU-unsplash.jpg" alt="">
+              </div>
+              <div class="posts-item-texts">
+                <a href="#"><span class="health posts-span">Health</span></a>
+                <h4  class="posts-item-title"><a href="#">The mind and body are not separate. what affects one, affects the other</a></h4>
+                <p class="posts-item-text">his recital put the Captain into an ecstasy; he went from the lady to the gentleman, and from the gentleman to the lady, to enjoy alternately the sight of their distress.</p>
+                <div class="post-meta">
+                  <time class="post-date" datetime="2021-03-28">Mar 28, 2021</time>
+                  <span class="read-time">3 min read</span>
+                  <span class="visibility">Paid</span>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <h3 class="posts-title">Latest posts</h3>
+          <ul class="posts-list">
+            <li class="posts-item row">
+              <div class="img-box">
+                <img class="post-img" src="https://arun.gbjsolution.com/content/images/size/w400/2021/05/kaizen-nguy-n-8Js2kEeiirs-unsplash.jpg" alt="">
+              </div>
+              <div class="posts-item-texts">
+                <a href="#"><span class="nature posts-span">Nature</span></a>
+                <h4  class="posts-item-title"><a href="#">Autumn is a second spring when every leaf is a flower</a></h4>
+                <p class="posts-item-text">She then expatiated very warmly upon the advantages I should reap from her plan; talked in a high style of my future grandeur; assured me how heartily I should...</p>
+                <div class="post-meta">
+                  <time class="post-date" datetime="2021-05-02">May 02, 2021</time>
+                  <span class="read-time">4 min read</span>
+                  <span class="visibility">Public</span>
+              </div>
+              </div>
+            </li>
+            <li class="posts-item row">
+              <div class="img-box">
+                <img class="post-img" src="https://arun.gbjsolution.com/content/images/size/w400/2021/05/mirna-rivalta-UecFf82b1qo-unsplash.jpg" alt="">
+              </div>
+              <div class="posts-item-texts">
+                <a href="#"><span class="travel posts-span">Travel</span></a>
+                <h4  class="posts-item-title"><a href="#">Never let your memories be greater than your dreams</a></h4>
+                <p class="posts-item-text">Before long the searchlight discovered some distance away a schooner with all sails set, apparently the same vessel which had been noticed earlier in the evening. The...</p>
+                <div class="post-meta">
+                  <time class="post-date" datetime="2021-03-28">Mar 28, 2021</time>
+                  <span class="read-time">4 min read</span>
+                  <span class="visibility">Members</span>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <aside>
+            <div class="aside-texts">
+              <h2 class="aside-title">Subscribe to premium membership plan</h2>
+              <p class="aside-text">Get access to all premium content and enjoy reading without any distraction</p>
+              <a class="aside-link" href="#">Compare plan</a>
+            </div>
+
+            <ul class="aside-list">
+              <li class="aside-item">
+                <p class="aside-item-title">Yearly</p>
+                <p class="aside-price"><sup>$</sup>50</p>
+                <span class="discount">Save 17%</span>
+                <a class="aside-btn" href="#">Subscribe now</a>
+              </li>
+              <li class="aside-item">
+                <p class="aside-item-title">Monthly</p>
+                <p class="aside-price"><sup>$</sup>5</p>
+                <span class="discount"></span>
+                <a class="aside-btn" href="#">Subscribe now</a>
+              </li>
+            </ul>
+          </aside>
+          <ul class="posts-list">
+
+            <li class="posts-item row">
+              <div class="img-box">
+                <img class="post-img" src="https://arun.gbjsolution.com/content/images/size/w400/2021/05/louis-hansel-8KvlX53rlnI-unsplash.jpg" alt="">
+              </div>
+              <div class="posts-item-texts">
+                <a href="#"><span class="food posts-span">Food</span></a>
+                <h4  class="posts-item-title"><a href="#">Dramatically improve your cooking using just your imagination</a></h4>
+                <p class="posts-item-text">You cannot too assiduously attend to Madame Duval herself; but I would wish you to mix as little as possible with her associates, who are not likely to be among those...</p>
+                <div class="post-meta">
+                  <time class="post-date" datetime="2021-05-02">May 02, 2021</time>
+                  <span class="read-time">4 min read</span>
+                  <span class="visibility">Paid</span>
+              </div>
+              </div>
+            </li>
+
+            <li class="posts-item row">
+              <div class="img-box">
+                <img class="post-img" src="https://arun.gbjsolution.com/content/images/size/w400/2021/05/tengyart-pNq5uxt-f7k-unsplash.jpg" alt="">
+              </div>
+              <div class="posts-item-texts">
+                <a href="#"><span class="lifestyle posts-span">Lifestyle</span></a>
+                <h4  class="posts-item-title"><a href="#">Self-observation is the first step of inner unfolding</a></h4>
+                <p class="posts-item-text">Almost instantly the whole truth of the transaction seemed to rush upon her mind, and her wrath was inconceivably violent. She asked me a thousand questions in a...</p>
+                <div class="post-meta">
+                  <time class="post-date" datetime="2021-05-02">May 02, 2021 </time>
+                  <span class="read-time">3 min read</span>
+                  <span class="visibility">Public</span>
+                </div>
+              </div>
+            </li>
+
+            <li class="posts-item row">
+              <div class="img-box">
+                <img class="post-img" src="https://arun.gbjsolution.com/content/images/size/w400/2021/05/jean-philippe-delberghe-Ry9WBo3qmoc-unsplash.jpg" alt="">
+              </div>
+              <div class="posts-item-texts">
+                <a href="#"><span class="inspiration posts-span">Inspiration</span></a>
+                <h4  class="posts-item-title"><a href="#">It is during our darkest moments that we must focus to see the light</a></h4>
+                <p class="posts-item-text">Mina took a growing interest in everything and I was rejoiced to see that the exigency of affairs was helping her to forget for a time the terrible experience of the night....</p>
+                <div class="post-meta">
+                  <time class="post-date" datetime="2021-04-24">Apr 24, 2021</time>
+                  <span class="read-time">4 min read</span>
+                  <span class="visibility">Public</span>
+              </div>
+              </div>
+            </li>
+
+            <li class="posts-item row">
+              <div class="img-box">
+                <img class="post-img" src="https://arun.gbjsolution.com/content/images/size/w400/2021/05/di_an_h-9jsV5uKbAEM-unsplash.jpg" alt="">
+              </div>
+              <div class="posts-item-texts">
+                <a href="#"><span class="technology posts-span">Technology</span></a>
+                <h4  class="posts-item-title"><a href="#">Bangladesh has developed plastic alternative using jute</a></h4>
+                <p class="posts-item-text">Dr. Johnson, as usual, spoke contemptuously of Colley Cibber. 'It is wonderful that a man, who for forty years had lived with the great and the witty, should have acquire...</p>
+                <div class="post-meta">
+                  <time class="post-date" datetime="2021-04-18">Apr 18, 2021 </time>
+                  <span class="read-time">3 min read</span>
+                  <span class="visibility">Members</span>
+                </div>
+              </div>
+            </li>
+
+            <li class="posts-item row">
+              <div class="img-box">
+                <img class="post-img" src="https://arun.gbjsolution.com/content/images/size/w400/2021/05/abinash-mark-qHBqisLKC6o-unsplash.jpg" alt="">
+              </div>
+              <div class="posts-item-texts">
+                <a href="#"><span class="food posts-span">Food</span></a>
+                <h4  class="posts-item-title"><a href="#">I do not stick to rules when cooking. I rely on my imagination</a></h4>
+                <p class="posts-item-text">I walked down to the station with them, and then wandered through the streets of the little town, finally returning to the hotel, where I lay upon the sofa and tried to...</p>
+                <div class="post-meta">
+                  <time class="post-date" datetime="2021-04-12">Apr 12, 2021 </time>
+                  <span class="read-time">4 min read</span>
+                  <span class="visibility">Public</span>
+              </div>
+              </div>
+            </li>
+
+            <li class="posts-item row">
+              <div class="img-box">
+                <img class="post-img" src="https://arun.gbjsolution.com/content/images/size/w400/2021/05/timur-romanov-VfOx0mL70xU-unsplash.jpg" alt="">
+              </div>
+              <div class="posts-item-texts">
+                <a href="#"><span class="health posts-span">Health</span></a>
+                <h4  class="posts-item-title"><a href="#">The mind and body are not separate. what affects one, affects the other</a></h4>
+                <p class="posts-item-text">his recital put the Captain into an ecstasy; he went from the lady to the gentleman, and from the gentleman to the lady, to enjoy alternately the sight of their distress....</p>
+                <div class="post-meta">
+                  <time class="post-date" datetime="2021-03-28">Mar 28, 2021</time>
+                  <span class="read-time">3 min read</span>
+                  <span class="visibility">Paid</span>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <a href="#" class="aside-btn posts-btn">Show more posts</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script>
+    let rightbtn = document.querySelector('.dark-btn');
+    rightbtn.addEventListener('click', function () {
+      document.body.classList.toggle('dark');
+    })
+    let darkLightbtn = document.querySelector('.darks-btn2');
+    darkLightbtn.addEventListener('click', function () {
+      document.body.classList.toggle('dark-color');
+    })
+    let darkLightbtn2 = document.querySelector('.darks-btn1');
+    darkLightbtn2.addEventListener('click', function () {
+      document.body.classList.remove('dark-color');
+    })
+  </script>
 </body>
 </html>
+
+<!-- 
+  
+ -->
